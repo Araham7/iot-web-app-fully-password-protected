@@ -1,0 +1,101 @@
+body {
+  background-color: darkseagreen;
+}
+
+/*------------------------------------------------- webApp css -------------------------------------------------*/
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid yellowgreen;
+  background-color: blanchedalmond;
+  border-radius: 25px;
+  height: 300px;
+  width: 550px;
+  padding-left: 200px;
+}
+
+.contentHeading {
+  margin-left: -80px;
+}
+.btn {
+  border: 2px solid pink;
+  border-radius: 30px;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #d1ab40;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+h1 {
+  color: chocolate;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+.btnSize {
+  margin: 15px;
+}
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*------------------------------------------------- password  css ----------------------------------------------*/
+
+#loginForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.passwordContainer {
+  width: 560px;
+  height: 165px;
+  border: 5px solid orangered;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 45px;
+  background-color: rgb(114 114 169);
+}
+.para {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-decoration-line: underline;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#passwordInput {
+  background-color: rgb(136, 201, 221);
+  height: 37px;
+  width: 260px;
+  margin-left: 50px;
+  border-radius: 20px;
+  padding-left: 50px;
+}
+.passwordBtn {
+  height: 40px;
+  width: 80px;
+  border-radius: 12px;
+  background-color: chocolate;
+}
+.passwordBtn:hover {
+  background-color: red;
+  border: none;
+}
+#passwordInput:hover {
+  height: 40px;
+  width: 265px;
+}
